@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+.container{
+    width: 1440px;
+    height: 100vh;
+    background-color: white;
+    font-size: 15px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.subcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 300px;
+
+    
+}
+
+
+.block {
+    height: 300px;
+    width: 150px;
+    padding: 60px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+   
+
+}
+
+#block1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+#block2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+#block3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    color:  hsl(0, 0%, 95%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: "Lexend Deca", sans-serif;
+   
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 12px;
+    
+    
+}
+
+button{
+    padding: 10px;
+    width:7vw;
+    height: 5vh;
+    text-align: center;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 14px;
+    color: orange;
+
+
+}
+
+@media screen and (max-width: 960px)
+
+
+{
+.subcontainer{
+    display: inline-block;
+    max-width: 650px;
+}
+.container{
+    max-width: 650px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+git remote add origin https://github.com/naida1210/3columncardcomponent.git
